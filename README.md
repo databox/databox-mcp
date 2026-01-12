@@ -133,7 +133,7 @@ The Databox MCP server provides the following tools:
 
 ## 🤝 Support
 
-- **Documentation**: Visit [developers.databox.com/docs/mcp](https://developers.databox.com/docs/mcp/overview)
+- **Documentation**: Visit [MCP Documentation](https://developers.databox.com/docs/mcp/overview)
 - **Issues**: Report issues on [GitHub Issues](https://github.com/databox/databox-mcp/issues)
 - **Community**: Join discussions on [Databox Community](https://databox.com/community)
 
