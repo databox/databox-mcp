@@ -62,7 +62,7 @@ Use an **HTTP Request** node pointing to `https://mcp.databox.com/mcp` and build
 
 ## Available Tools
 
-Databox MCP exposes 11 tools for interacting with your data:
+Databox MCP exposes 16 tools for interacting with your data:
 
 ### Account Management
 - **list_accounts** – List all Databox accounts you have access to
@@ -80,11 +80,18 @@ Databox MCP exposes 11 tools for interacting with your data:
 - **get_ingestion** – Check ingestion status and metrics
 - **get_ingestions** – List all ingestions for a dataset
 
+### Metrics
+- **list_metrics** – List all metrics available for a data source (Google Analytics, Stripe, etc.)
+- **load_metric_data** – Load metric data over a date range with optional dimensions and time-series granulation
+
 ### AI-Powered Analysis
 - **ask_genie** – Query your data using natural language (powered by Genie AI)
   - Supports conversation threading for follow-up questions
   - Translates business questions into precise queries
   - Returns calculated results, not LLM approximations
+
+### Utilities
+- **get_current_datetime** – Get current date/time for resolving relative date expressions
 
 ## How It Works
 
@@ -130,6 +137,15 @@ Your data remains within your Databox account with existing governance standards
 
 **Data Cleanup**
 > Push messy CSV exports and let Databox normalize dates, formats, and schemas automatically
+
+**Direct Metric Queries**
+> "Show me Google Analytics sessions for the last 30 days broken down by traffic source"
+
+**Time-Series Analysis**
+> "Load daily page views for January with weekly aggregation"
+
+**Dimension Breakdowns**
+> "What are the top 10 countries by revenue from Stripe?"
 
 ## Resources
 
