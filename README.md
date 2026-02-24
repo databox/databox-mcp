@@ -190,7 +190,6 @@ Load data for a metric over a date range with optional dimensions and time-serie
 | `end_date` | string | Yes | End date in `YYYY-MM-DD` format |
 | `dimension` | string | No | Dimension key to break down by (e.g. `"source"`) |
 | `granulation_time_unit` | integer | No | Time unit for time series: `1`=hour, `2`=day, `3`=week, `4`=month |
-| `granulation_multiplier` | integer | No | Multiplier for time unit (e.g. `1` = every unit) |
 | `is_whole_range` | boolean | No | If `true` (default), returns single aggregated value. Automatically set to `false` when `granulation_time_unit` is provided |
 | `record_limit` | integer | No | Maximum number of dimension value records to return |
 
