@@ -62,7 +62,7 @@ Use an **HTTP Request** node pointing to `https://mcp.databox.com/mcp` and build
 
 ## Available Tools
 
-Databox MCP exposes 16 tools for interacting with your data:
+Databox MCP exposes 17 tools for interacting with your data:
 
 ### Account Management
 - **list_accounts** – List all Databox accounts you have access to
@@ -79,6 +79,7 @@ Databox MCP exposes 16 tools for interacting with your data:
 - **ingest_data** – Push data records into a dataset
 - **get_ingestion** – Check ingestion status and metrics
 - **get_ingestions** – List all ingestions for a dataset
+- **list_merged_datasets** – List all merged datasets for an account
 
 ### Metrics
 - **list_metrics** – List all metrics available for a data source (Google Analytics, Stripe, etc.)
